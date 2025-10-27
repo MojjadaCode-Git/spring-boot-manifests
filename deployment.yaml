@@ -15,8 +15,7 @@ spec:
         app: spring-boot-app
     spec:
       containers:
-      - name: spring-boot-app
+      - name: spring-boot-container
         image: saixdocker/spring-boot-app:1.0.0
         ports:
         - containerPort: 8080
-
