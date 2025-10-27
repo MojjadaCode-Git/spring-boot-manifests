@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/MojjadaCode-Git/spring-boot-manifests.git'
-    targetRevision: HEAD
+    targetRevision: main
     path: .
   destination:
     server: https://kubernetes.default.svc
@@ -16,4 +16,3 @@ spec:
     automated:
       prune: true
       selfHeal: true
-
